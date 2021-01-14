@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ota42y_python_package_test"
+version = "0.1.0"
+description = ""
+authors = ["ota42y"]
+license = "MIT"
+homepage = "https://github.com/ota42y/ota42y_python_package_test"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+absl-py = {git = "https://github.com/abseil/abseil-py.git", rev = "c99edd8e3dffe3667a9f086db86aa259927ac429"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
